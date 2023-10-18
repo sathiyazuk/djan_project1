@@ -1,0 +1,49 @@
+/* img{
+    height: 500px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 100px;
+    box-shadow: 5px 5px 15px 1px rgb(25, 25, 59);
+    border-radius: 20px;
+} */
+
+.color {
+  background-color: rgb(83, 93, 90);
+  border-color: rgb(100, 100, 28);
+}
+.navbar {
+  font-family: "Times New Roman";
+  box-shadow: 1px 1px 5px black;
+  padding: 5px;
+}
+.navbar .navbar-brand:hover {
+  font-size: 21px;
+  color: orange;
+}
+.navbar .navbar-brand {
+  font-size: 21px;
+  color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: antiquewhite;
+  font-size: 20px;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: orange;
+  font-size: 20px;
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.well {
+  box-shadow: 2px 2px 15px 0px black;
+}
+body {
+  background-color: rgb(136, 215, 189);
+}
